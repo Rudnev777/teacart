@@ -1,0 +1,69 @@
+body {
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+header {
+
+  background-color: rgb(102, 102, 232);
+  border: 2px solid black;
+}
+.header-section {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.table-of-contents-header {
+  background-color: rgb(54, 54, 118);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  color: white;
+}
+
+.a-header:hover{
+    background-color: rgb(30, 1, 45);
+    color: blanchedalmond;
+}
+main {
+  padding: 5px 5px 55px 5px;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer {
+  color: coral;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-news {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.data-news {
+  background-color: darkblue;
+  color: white;
+}
+
+h2 {
+  color: blue;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
